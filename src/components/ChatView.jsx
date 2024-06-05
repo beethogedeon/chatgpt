@@ -39,7 +39,7 @@ const ChatView = () => {
   const [formValue, setFormValue] = useState('');
   const [thinking, setThinking] = useState(false);
   const [selected, setSelected] = useState(options[0]);
-  const [gpt, setGpt] = useState(gptModel[0]);
+  const [gpt, setGpt] = useState(gptModel[1]);
   const [messages, addMessage] = useContext(ChatContext);
   const [modalOpen, setModalOpen] = useState(false);
 
