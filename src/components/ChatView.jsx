@@ -10,7 +10,7 @@ import Modal from './Modal';
 import Setting from './Setting';
 
 const options = ['ChatGPT', 'DALL·E'];
-const gptModel = ['gpt-3.5-turbo', 'gpt-4'];
+const gptModel = ['gpt-3.5-turbo-16k', 'gpt-4o'];
 const template = [
   {
     title: 'Plan a trip',
