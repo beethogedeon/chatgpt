@@ -1,5 +1,5 @@
 import { ConversationChain } from 'langchain/chains';
-import { ChatOpenAI } from 'langchain/chat_models/openai';
+import { ChatOpenAI } from "langchain/chat_models/openai";
 import {
   ChatPromptTemplate,
   SystemMessagePromptTemplate,
@@ -23,7 +23,7 @@ export const davinci = async (prompt, key, gptVersion) => {
   ]);
   const model = new ChatOpenAI({
     openAIApiKey: key,
-    model: gptVersion,
+    model: "gpt-4o",
     temperature: 0.3,
   });
 

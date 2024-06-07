@@ -10,7 +10,7 @@ import Modal from './Modal';
 import Setting from './Setting';
 
 const options = ['ChatGPT', 'DALL·E'];
-const gptModel = ['gpt-3.5-turbo-16k', 'gpt-4o'];
+const gptModel = ['gpt-4o', 'gpt-4o'];
 const template = [
   {
     title: 'Plan a trip',
@@ -87,7 +87,7 @@ const ChatView = () => {
 
     const newMsg = cleanPrompt;
     const aiModel = selected;
-    const gptVersion = gpt;
+    const gptVersion = "gpt-4o";
 
     setThinking(true);
     setFormValue('');

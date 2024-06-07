@@ -11,5 +11,5 @@ export const checkApiKey = async (keys) => {
     apiKey: keys, // This is the default and can be omitted
   });
 
-  return openai.listModels();
+  return openai.models.list();
 };
